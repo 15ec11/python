@@ -1,0 +1,3 @@
+p=input().split()
+for i in range(len(p)):
+    print(p[i][::-1],end='')
