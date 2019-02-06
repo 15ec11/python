@@ -1,0 +1,5 @@
+a=str(input()).split()
+p=int(a[1])
+a=str(input()).split()
+a.sort(reverse=True)
+print(a[p-1])
