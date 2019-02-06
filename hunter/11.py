@@ -1,8 +1,7 @@
-def reverse(p):
+def reverse(n):
   str = ""
-  for i in p:
+  for i in n:
     str = i + str
   return str
-p = input()
-g=reverse(p)
-print (g+" ")
+n = input()
+print (reverse(n))
